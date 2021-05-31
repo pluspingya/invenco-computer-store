@@ -41,7 +41,7 @@ describe("test 3 scenarios of special deals", () => {
         expect(co.total()).toBe(2718.95);
     })
 
-    test("SKUs scanned: atv, atv, atv, vga", () => {    
+    test("SKUs scanned: mbp, vga, ipd", () => {    
         ['mbp', 'vga', 'ipd'].forEach(sku => co.scan(products.find(p => p.SKU === sku)));        
         expect(co.total()).toBe(1949.98);
     })

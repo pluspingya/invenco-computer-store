@@ -1,5 +1,5 @@
 {
-  "name": "inven-cocomputer-store",
+  "name": "invenco-computer-store",
   "version": "1.0.0",
   "description": "This is an implementation that completes a test project described at https://gist.github.com/iknowcss/3d466f21b507a8d1fd2ade6561531aee",
   "main": "src/index.js",
